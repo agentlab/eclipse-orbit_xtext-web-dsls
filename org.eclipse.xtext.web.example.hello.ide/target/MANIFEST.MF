@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.xtext.web.example.hello.ide; singleto
+ n:=true
+Export-Package: org.eclipse.xtext.web.example.hello.ide,org.eclipse.xt
+ ext.web.example.hello.ide.contentassist.antlr,org.eclipse.xtext.web.e
+ xample.hello.ide.contentassist.antlr.internal
+Bundle-Name: org.eclipse.xtext.web.example.hello.ide
+Bundle-Version: 1.0.0.201610071439
+Require-Bundle: org.eclipse.xtext.web.example.hello,org.eclipse.xtext.
+ ide,org.eclipse.xtext.xbase.ide
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: My Company
+

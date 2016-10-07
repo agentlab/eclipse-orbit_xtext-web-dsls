@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.xtext.web.statemachine.servlet' version='1.0.0.201610071439'>
+    <update id='org.eclipse.xtext.web.statemachine.servlet' range='[0.0.0,1.0.0.201610071439)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='ru.one.c.www.jetty'/>
+      <property name='org.eclipse.equinox.p2.provider' value='My Company'/>
+      <property name='maven-groupId' value='org.eclipse.xtext.web'/>
+      <property name='maven-artifactId' value='org.eclipse.xtext.web.statemachine.servlet'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='6'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.web.statemachine.servlet' version='1.0.0.201610071439'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.xtext.web.statemachine.servlet' version='1.0.0.201610071439'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.jetty' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.jetty.resource' version='0.0.0'/>
+      <provided namespace='java.package' name='ru.one.c.www.statemachine.servlet' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='35'>
+      <required namespace='osgi.bundle' name='org.eclipse.xtend.lib' range='2.11.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.web' range='1.0.0'/>
+      <required namespace='java.package' name='com.google.inject' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.binder' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.name' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.util' range='1.3.0'/>
+      <required namespace='java.package' name='javax.inject' range='1.0.0'/>
+      <required namespace='java.package' name='javax.servlet' range='3.1.0'/>
+      <required namespace='java.package' name='javax.servlet.annotation' range='3.1.0'/>
+      <required namespace='java.package' name='javax.servlet.http' range='3.1.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.ecore.resource' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.jetty.http' range='9.3.10'/>
+      <required namespace='java.package' name='org.eclipse.jetty.server.handler' range='9.3.10'/>
+      <required namespace='java.package' name='org.eclipse.jetty.server.session' range='9.3.10'/>
+      <required namespace='java.package' name='org.eclipse.jetty.servlet' range='9.3.10'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide.editor.contentassist' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide.editor.contentassist.antlr' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide.editor.contentassist.antlr.internal' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide.editor.syntaxcoloring' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide.labels' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.service' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.dsl.launguage' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.example.statemachine' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.ide' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.ide.contentassist.antlr' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.ide.contentassist.antlr.internal' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.server' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.server.generator' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.server.model' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.server.persistence' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.servlet' range='0.0.0'/>
+      <required namespace='java.package' name='org.osgi.framework' range='1.8.0'/>
+      <required namespace='java.package' name='org.osgi.service.http' range='1.2.1'/>
+      <required namespace='java.package' name='org.osgi.util.tracker' range='1.5.1'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.xtext.web.statemachine.servlet' version='1.0.0.201610071439'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.xtext.web.statemachine.servlet;singleton:=true&#xA;Bundle-Version: 1.0.0.201610071439&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.xtext.web.statemachine.servlet.source' version='1.0.0.201610071439' singleton='false'>
+    <update id='org.eclipse.xtext.web.statemachine.servlet.source' range='[0.0.0,1.0.0.201610071439)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='My Company'/>
+      <property name='df_LT.bundleName' value='ru.one.c.www.jetty Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.xtext.web'/>
+      <property name='maven-artifactId' value='org.eclipse.xtext.web.statemachine.servlet'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.web.statemachine.servlet.source' version='1.0.0.201610071439'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.xtext.web.statemachine.servlet.source' version='1.0.0.201610071439'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.xtext.web.statemachine.servlet.source' version='1.0.0.201610071439'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.xtext.web.statemachine.servlet.source&#xA;Bundle-Version: 1.0.0.201610071439&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

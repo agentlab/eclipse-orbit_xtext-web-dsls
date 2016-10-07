@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.xtext.web.example.statemachine' version='2.11.0.201610071439'>
+    <update id='org.eclipse.xtext.web.example.statemachine' range='[0.0.0,2.11.0.201610071439)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Xtext Statemachine Web Example - Runtime'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Eclipse Xtext'/>
+      <property name='maven-groupId' value='org.eclipse.xtext.web'/>
+      <property name='maven-artifactId' value='org.eclipse.xtext.web.example.statemachine'/>
+      <property name='maven-version' value='2.11.0-SNAPSHOT'/>
+    </properties>
+    <provides size='15'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.web.example.statemachine' version='2.11.0.201610071439'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.xtext.web.example.statemachine' version='2.11.0.201610071439'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.formatting2' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.generator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.parser.antlr' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.parser.antlr.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.scoping' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.serializer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.services' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.statemachine' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.statemachine.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.statemachine.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.validation' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='85'>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.xbase.lib' range='2.11.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext' range='2.11.0'/>
+      <required namespace='java.package' name='com.google.inject' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.assistedinject' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.binder' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.internal' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.internal.util' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.matcher' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.multibindings' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.name' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.spi' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.util' range='1.3.0'/>
+      <required namespace='java.package' name='org.antlr.runtime' range='3.2.0'/>
+      <required namespace='java.package' name='org.apache.log4j' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.common' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.common.notify' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.common.notify.impl' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.common.util' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.ecore' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.ecore.impl' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.ecore.plugin' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.ecore.resource' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.ecore.util' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.mwe2.runtime.workflow' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.common' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.common.services' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.formatting2' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.formatting2.regionaccess' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.generator' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.naming' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.nodemodel' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.parser' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.parser.antlr' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.parser.impl' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.preferences' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.resource' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.scoping' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.scoping.impl' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.serializer' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.serializer.acceptor' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.serializer.analysis' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.serializer.diagnostic' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.serializer.impl' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.serializer.sequencer' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.service' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.util' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.validation' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.statemachine' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.builder' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.ecore' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.ecore2xtext' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.exporting' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.formatting' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.generator' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.grammarAccess' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.idea' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.idea.parser.antlr' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.model' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.model.project' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.parser.antlr' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.parser.antlr.splitting' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.parser.antlr.splitting.internal' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.parser.antlr.splitting.parser.antlr' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.parser.antlr.splitting.parser.antlr.internal' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.parser.antlr.splitting.services' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.parser.antlr.splitting.simpleExpressions' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.parser.antlr.splitting.simpleExpressions.impl' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.parser.antlr.splitting.simpleExpressions.util' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.resourceFactory' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.scoping' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.serializer' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.types' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.ui.compare' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.ui.contentAssist' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.ui.labeling' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.ui.outline' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.ui.quickfix' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.ui.refactoring' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.ui.templates' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.util' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.validation' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.web' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.xtext.generator.xbase' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.xtext.web.example.statemachine' version='2.11.0.201610071439'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.xtext.web.example.statemachine;singleton:=true&#xA;Bundle-Version: 2.11.0.201610071439&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.xtext.web.example.statemachine.source' version='2.11.0.201610071439' singleton='false'>
+    <update id='org.eclipse.xtext.web.example.statemachine.source' range='[0.0.0,2.11.0.201610071439)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='Eclipse Xtext'/>
+      <property name='df_LT.bundleName' value='Xtext Statemachine Web Example - Runtime Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.xtext.web'/>
+      <property name='maven-artifactId' value='org.eclipse.xtext.web.example.statemachine'/>
+      <property name='maven-version' value='2.11.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.web.example.statemachine.source' version='2.11.0.201610071439'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.xtext.web.example.statemachine.source' version='2.11.0.201610071439'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.xtext.web.example.statemachine.source' version='2.11.0.201610071439'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.xtext.web.example.statemachine.source&#xA;Bundle-Version: 2.11.0.201610071439&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

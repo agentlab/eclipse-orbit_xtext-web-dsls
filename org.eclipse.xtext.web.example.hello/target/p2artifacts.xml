@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.xtext.web.example.hello' version='1.0.0.201610071439'>
+    <properties size='5'>
+      <property name='artifact.size' value='66975'/>
+      <property name='download.size' value='66975'/>
+      <property name='maven-groupId' value='org.eclipse.xtext.web'/>
+      <property name='maven-artifactId' value='org.eclipse.xtext.web.example.hello'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.xtext.web.example.hello.source' version='1.0.0.201610071439'>
+    <properties size='6'>
+      <property name='artifact.size' value='60927'/>
+      <property name='download.size' value='60927'/>
+      <property name='maven-groupId' value='org.eclipse.xtext.web'/>
+      <property name='maven-artifactId' value='org.eclipse.xtext.web.example.hello'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+  </artifact>
+</artifacts>

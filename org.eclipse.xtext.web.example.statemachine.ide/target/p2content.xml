@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.xtext.web.example.statemachine.ide' version='2.11.0.201610071439'>
+    <update id='org.eclipse.xtext.web.example.statemachine.ide' range='[0.0.0,2.11.0.201610071439)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Xtext Statemachine Web Example - IDE Features'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Eclipse Xtext'/>
+      <property name='maven-groupId' value='org.eclipse.xtext.web'/>
+      <property name='maven-artifactId' value='org.eclipse.xtext.web.example.statemachine.ide'/>
+      <property name='maven-version' value='2.11.0-SNAPSHOT'/>
+    </properties>
+    <provides size='6'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.web.example.statemachine.ide' version='2.11.0.201610071439'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.xtext.web.example.statemachine.ide' version='2.11.0.201610071439'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.ide' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.ide.contentassist.antlr' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.ide.contentassist.antlr.internal' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='28'>
+      <required namespace='osgi.bundle' name='org.eclipse.xtend.lib' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.xbase.lib' range='0.0.0'/>
+      <required namespace='java.package' name='com.google.inject' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.binder' range='1.3.0'/>
+      <required namespace='java.package' name='com.google.inject.name' range='1.3.0'/>
+      <required namespace='java.package' name='org.antlr.runtime' range='3.2.0'/>
+      <required namespace='java.package' name='org.apache.log4j' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.common.notify' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.ecore' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.emf.ecore.util' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide.editor.contentassist' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide.editor.contentassist.antlr' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide.editor.contentassist.antlr.internal' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide.editor.syntaxcoloring' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.ide.labels' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.naming' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.nodemodel' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.nodemodel.util' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.parser.antlr' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.resource' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.scoping' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.service' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.util' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.example.statemachine' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.services' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.xtext.web.example.statemachine.statemachine' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.xtext.web.example.statemachine.ide' version='2.11.0.201610071439'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.xtext.web.example.statemachine.ide;singleton:=true&#xA;Bundle-Version: 2.11.0.201610071439&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.xtext.web.example.statemachine.ide.source' version='2.11.0.201610071439' singleton='false'>
+    <update id='org.eclipse.xtext.web.example.statemachine.ide.source' range='[0.0.0,2.11.0.201610071439)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='Eclipse Xtext'/>
+      <property name='df_LT.bundleName' value='Xtext Statemachine Web Example - IDE Features Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.xtext.web'/>
+      <property name='maven-artifactId' value='org.eclipse.xtext.web.example.statemachine.ide'/>
+      <property name='maven-version' value='2.11.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.web.example.statemachine.ide.source' version='2.11.0.201610071439'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.xtext.web.example.statemachine.ide.source' version='2.11.0.201610071439'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.xtext.web.example.statemachine.ide.source' version='2.11.0.201610071439'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.xtext.web.example.statemachine.ide.source&#xA;Bundle-Version: 2.11.0.201610071439&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
