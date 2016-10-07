@@ -11,6 +11,7 @@ import com.google.inject.Provider;
 import java.util.concurrent.ExecutorService;
 import org.eclipse.xtend.lib.annotations.FinalFieldsConstructor;
 import org.eclipse.xtext.web.example.jetty.AbstractHelloWebModule;
+import org.eclipse.xtext.web.server.persistence.IResourceBaseProvider;
 
 /**
  * Use this class to register additional components to be used within the web application.
@@ -18,7 +19,7 @@ import org.eclipse.xtext.web.example.jetty.AbstractHelloWebModule;
 @FinalFieldsConstructor
 @SuppressWarnings("all")
 public class HelloWebModule extends AbstractHelloWebModule {
-  private final /* IResourceBaseProvider */Object resourceBaseProvider;
+  private final IResourceBaseProvider resourceBaseProvider;
   
   public HelloWebModule(final Provider<ExecutorService> executorServiceProvider, final IResourceBaseProvider resourceBaseProvider) {
     super(executorServiceProvider);

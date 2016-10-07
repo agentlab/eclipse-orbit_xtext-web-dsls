@@ -7,11 +7,17 @@
  */
 package org.eclipse.xtext.web.example.jetty;
 
+import com.google.inject.Guice;
 import com.google.inject.Injector;
+import com.google.inject.Module;
 import com.google.inject.Provider;
+import com.google.inject.util.Modules;
 import java.util.concurrent.ExecutorService;
 import org.eclipse.xtend.lib.annotations.FinalFieldsConstructor;
+import org.eclipse.xtext.web.example.hello.HelloRuntimeModule;
 import org.eclipse.xtext.web.example.hello.HelloStandaloneSetup;
+import org.eclipse.xtext.web.example.jetty.HelloWebModule;
+import org.eclipse.xtext.web.server.persistence.IResourceBaseProvider;
 
 /**
  * Initialization support for running Xtext languages in web applications.
@@ -21,14 +27,15 @@ import org.eclipse.xtext.web.example.hello.HelloStandaloneSetup;
 public class HelloWebSetup extends HelloStandaloneSetup {
   private final Provider<ExecutorService> executorServiceProvider;
   
-  private final /* IResourceBaseProvider */Object resourceBaseProvider;
+  private final IResourceBaseProvider resourceBaseProvider;
   
   @Override
   public Injector createInjector() {
-    throw new Error("Unresolved compilation problems:"
-      + "\nType mismatch: cannot convert from HelloWebModule to Iterable<? extends Module>"
-      + "\nThe constructor HelloWebModule(Provider<ExecutorService>, IResourceBaseProvider) refers to the missing type IResourceBaseProvider"
-      + "\nThe field HelloWebSetup.resourceBaseProvider refers to the missing type IResourceBaseProvider");
+    final HelloRuntimeModule runtimeModule = new HelloRuntimeModule();
+    final HelloWebModule webModule = new HelloWebModule(this.executorServiceProvider, this.resourceBaseProvider);
+    Modules.OverriddenModuleBuilder _override = Modules.override(runtimeModule);
+    Module _with = _override.with(webModule);
+    return Guice.createInjector(_with);
   }
   
   public HelloWebSetup(final Provider<ExecutorService> executorServiceProvider, final IResourceBaseProvider resourceBaseProvider) {
